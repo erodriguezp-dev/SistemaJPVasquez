@@ -8,7 +8,7 @@ Sistema web integral desarrollado para optimizar la trazabilidad, el control de 
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **Backend:** PHP 8.2+ / 8.3 / 8.4 (Parcheado ante CVE-2026-109618 / CVE-2026-109619) & Laravel 12
 * **Frontend:** Blade Templates, Bootstrap 5, Bootstrap Icons, Chart.js & Vite
@@ -18,7 +18,7 @@ Sistema web integral desarrollado para optimizar la trazabilidad, el control de 
 
 ---
 
-## 🛠️ Módulos del Sistema
+## Módulos del Sistema
 
 * **Dashboard Analítico:** Indicadores clave (KPIs), gráficas de pedidos por estado, evolución temporal, distribución de insumos más consumidos y balance de movimientos de almacén (Entradas vs Salidas).
 * **Gestión de Inventario & Kardex:** Control de stock físico y lógico en tiempo real, alertas preventivas por stock bajo o agotado, y registro automático de entradas, salidas y ajustes de almacén.
@@ -29,7 +29,7 @@ Sistema web integral desarrollado para optimizar la trazabilidad, el control de 
 
 ---
 
-## 👥 Roles de Usuario y Matriz de Acceso
+## Roles de Usuario y Matriz de Acceso
 
 | Rol | Alcance Operativo |
 | :--- | :--- |
@@ -40,7 +40,7 @@ Sistema web integral desarrollado para optimizar la trazabilidad, el control de 
 
 ---
 
-## 💻 Instalación y Ejecución Local
+## Instalación y Ejecución Local
 
 1. **Clonar el repositorio:**
    ```bash
