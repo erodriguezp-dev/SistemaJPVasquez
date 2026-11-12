@@ -1,0 +1,27 @@
+// Import Google / Bunny Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito:400,600,700');
+
+// Import Bootstrap 5
+@import 'bootstrap/scss/bootstrap';
+
+// Import Bootstrap Icons
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Custom application styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    min-height: calc(100vh - 56px);
+    width: 250px;
+}
+
+.pagination {
+    svg {
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+    }
+}
