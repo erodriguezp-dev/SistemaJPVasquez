@@ -1,5 +1,9 @@
 providers = ["php"]
 
+[variables]
+COMPOSER_ALLOW_SUPERUSER = "1"
+NIXPACKS_PHP_ROOT_DIR = "public"
+
 [phases.setup]
 nixPkgs = ["php83", "php83Packages.composer"]
 
@@ -8,5 +12,5 @@ cmds = []
 
 [phases.build]
 cmds = [
-    "composer install --no-dev --optimize-autoloader"
+    "composer install --no-dev --optimize-autoloader --no-interaction"
 ]
